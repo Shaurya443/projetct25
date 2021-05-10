@@ -1,10 +1,11 @@
 
+
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Render = Matter.Render;
-var dustbinObj,groundObject,paperObj	
+var dustbinObj,groundObject	,paperObj
 var world;
 
 
@@ -40,4 +41,5 @@ function keyPressed(){
 		Matter.Body.applyForce(paperObj.body,paperObj.body.position,{x:130,y:-145})
 	}
 }
+
 
