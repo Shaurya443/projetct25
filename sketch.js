@@ -4,7 +4,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Render = Matter.Render;
-var dustbinObj,groundObject	
+var dustbinObj,groundObject,paperObj	
 var world;
 
 
